@@ -1,4 +1,5 @@
-body {
+html {
+  display: flex;
   margin: 0px;
   padding: 0px;
   border: 0px;
@@ -7,51 +8,36 @@ body {
   height: 825px;
   background-color: #30373e;
 }
-.main {
-  position: absolute;
+.contain {
   width: 375px;
   height: 667px;
-  margin: 1 2 3 4;
-  margin: 1 2;
-  margin-top: 79px;
-  margin-left: 452.5px;
-  margin-bottom: 79px;
-  margin-right: 452.5px;
+  margin: 79px 452.5px;
   background-color: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
 }
-#logo-mla {
-  position: absolute;
-  width: 207px;
-  height: 182px;
+.logo-mla {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   padding-top: 32px;
-  padding-left: 85px;
-  padding-bottom: 453px;
-  padding-right: 83px;
-  background: url(images/logo-mla);
-  background-repeat: no-repeat;
+  padding-bottom: 48.5px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+.logo-integrantes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 #logo-enerwatt {
-  position: absolute;
   width: 121px;
   height: 31px;
-  padding-top: 263px;
-  padding-left: 50px;
-  padding-bottom: 373px;
-  padding-right: 204px;
-  background: url(images/logo-enerwatt);
-  background-repeat: no-repeat;
 }
 #logo-amazonas-energia {
-  position: absolute;
   width: 127px;
   height: 33px;
-  padding-top: 261px;
-  padding-left: 200px;
-  padding-bottom: 373px;
-  padding-right: 48px;
-  background: url(images/logo-amazonas-energia);
-  background-repeat: no-repeat;
+}
+#logo-mla {
+  width: 207px;
+  height: 182px;
 }
