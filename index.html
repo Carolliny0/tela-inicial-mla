@@ -19,31 +19,35 @@
           alt="ERRO"
         />
       </div>
-      <form class="formulario" action="">
+      <form  action="">
+        <div class="formulario">
         <input
-          class="tamanho-input"
+          class="input-login-senha"
           type="text"
           name="login"
           placeholder="Login"
         />
         <input
-          class="tamanho-input"
+          class="input-login-senha"
           type="password"
           name="senha"
           placeholder="Senha"
         />
-        <button class="captcha" type="button">
-          <input class="input-captcha" type="checkbox" />
-          Não sou um robô
-          <img class="img-captcha" src="images/recaptcha-icon.svg" alt="ERRO" />
-        </button>
-      </form>
-      <div class="botoes-integrantes">
-        <button class="botao1" type="submit" class="botoes">Acessar</button>
-        <button class="botao2" type="submit" class="botoes">
-          Esqueci minha senha
-        </button>
-      </div>
+        <div class="div-captcha">
+          <div class="input-captcha">
+            <input class="input-captcha" type="checkbox" />Não sou um robô
+          </div>
+          <div>
+            <img src="images/recaptcha-icon.svg" alt="ERRO" />
+          </div>
+        </div>
+       </div>
+        <div class="botoes-integrantes">
+          <button class="botao1" type="submit" class="botoes">Acessar</button>
+          <button class="botao2" type="submit" class="botoes">
+            Esqueci minha senha
+          </button>
+        </div>
     </div>
   </body>
 </html>
