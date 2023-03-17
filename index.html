@@ -9,18 +9,41 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="contain">
-      <span class="logo-mla">
-        <img id="logo-mla" src="images/logo-mla.png" alt="ERRO" />
-      </span>
-      <span class="logo-integrantes">
-        <img id="logo-enerwatt" src="images/logo-enerwatt.png" alt="ERRO" />
+    <div class="container">
+      <img src="images/logo-mla.svg" alt="ERRO" width="207px" height="182px" />
+      <div class="logo-integrantes">
+        <img class="logos-menores" src="images/logo-enerwatt.svg" alt="ERRO" />
         <img
-          id="logo-amazonas-energia"
-          src="images/logo-amazonas-energia.png"
+          class="logos-menores"
+          src="images/logo-amazonas-energia.svg"
           alt="ERRO"
         />
-      </span>
+      </div>
+      <form class="formulario" action="">
+        <input
+          class="tamanho-input"
+          type="text"
+          name="login"
+          placeholder="Login"
+        />
+        <input
+          class="tamanho-input"
+          type="password"
+          name="senha"
+          placeholder="Senha"
+        />
+        <button class="captcha" type="button">
+          <input class="input-captcha" type="checkbox" />
+          Não sou um robô
+          <img class="img-captcha" src="images/recaptcha-icon.svg" alt="ERRO" />
+        </button>
+      </form>
+      <div class="botoes-integrantes">
+        <button class="botao1" type="submit" class="botoes">Acessar</button>
+        <button class="botao2" type="submit" class="botoes">
+          Esqueci minha senha
+        </button>
+      </div>
     </div>
   </body>
 </html>
