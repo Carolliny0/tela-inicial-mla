@@ -38,7 +38,7 @@ html {
   padding-top: 40px;
 }
 .input-login-senha {
-  display: block;
+  display: flex;
   width: 276px;
   height: 40px;
   padding: 13px 16px;
@@ -73,8 +73,9 @@ html {
   display: flex;
   align-items: center;
   gap: 10px;
+  cursor: pointer;
 }
-.botao1 {
+.button-acessar {
   align-items: center;
   padding: 15px 20px;
   height: 44px;
@@ -87,8 +88,9 @@ html {
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
   color: #ffffff;
+  cursor: pointer;
 }
-.botao2 {
+.button-esqueci-senha {
   align-items: center;
   padding: 15px 20px;
   height: 44px;
@@ -98,4 +100,16 @@ html {
   box-shadow: 0 0 3px 0.5px #b0b0b0;
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+.div-senha {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+div i {
+  position: absolute;
+  padding-right: 10px;
 }
