@@ -112,4 +112,5 @@ html {
 div i {
   position: absolute;
   padding-right: 10px;
+  cursor: pointer;
 }
