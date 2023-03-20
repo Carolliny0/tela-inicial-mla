@@ -10,3 +10,6 @@ function mostrarSenha() {
     btnShowPass.classList.replace("bi-eye-slash", "bi-eye");
   }
 }
+function esqueciSenha() {
+  alert("Tente Novamente");
+}
